@@ -5,6 +5,7 @@ import express, { NextFunction, Request, Response } from 'express';
 import routes from './routes';
 
 import 'reflect-metadata';
+import '@shared/typeorm';
 
 const app = express();
 
